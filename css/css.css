@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+body{
+    font-family: 'Sen', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #232536;
+    height: 80px;
+}
+.wrapper{
+    width: 1280px;
+}
+.logo{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 24px;
+    font-size: 16px;
+}
+.links button{
+    background-color: #fff;
+    padding: 16px 48px;
+}

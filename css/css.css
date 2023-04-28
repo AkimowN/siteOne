@@ -240,3 +240,53 @@ body{
     font-size: 28px;
     line-height: 40px;
 }
+.choose {
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.info .cards {
+    display: flex;
+    gap: 32px;
+}
+.info .cards div{
+    margin: 0;
+    height: 229px;
+    width: 296px;
+    background-color: #fff;
+    border: 1px solid #6D6E76;
+}
+.info img {
+    margin: 32px 0 0 32px;
+    background-image: url(/img/Icon\ background\ \(1\).png);
+}
+.info .cards h2 {
+    margin: 0;
+    padding: 0;
+    margin-left: 32px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+}
+.info .cards p {
+    margin: 0;
+    padding: 0;
+    margin-left: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}

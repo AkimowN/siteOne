@@ -254,11 +254,11 @@ body{
     display: flex;
     justify-content: center;
 }
-.info .cards {
+.info .cards1 {
     display: flex;
     gap: 32px;
 }
-.info .cards div{
+.info .card-info{
     margin: 0;
     height: 229px;
     width: 296px;
@@ -267,9 +267,9 @@ body{
 }
 .info img {
     margin: 32px 0 0 32px;
-    background-image: url(/img/Icon\ background\ \(1\).png);
+    background-color:#FBF6EA ;
 }
-.info .cards h2 {
+.info .cards1 h2 {
     margin: 0;
     padding: 0;
     margin-left: 32px;
@@ -279,7 +279,7 @@ body{
     font-size: 28px;
     line-height: 40px;
 }
-.info .cards p {
+.info .cards1 p {
     margin: 0;
     padding: 0;
     margin-left: 32px;

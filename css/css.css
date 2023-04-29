@@ -433,8 +433,13 @@ body{
     width: 100%;
     height: 464px;
 }
+.blog{
+    display: flex;
+    justify-content: space-between;
+}
 .blog .text {
-    padding: 92px 112px;
+    padding-left:112px ;
+    padding-top: 92px;
 }
 .blog .text p {
     font-family: 'Inter';
@@ -458,6 +463,80 @@ body{
     font-size: 16px;
     line-height: 28px;
     margin-top: 16px;
+}
+.blog .text2 {
+    padding-right:112px ;
+    width: 580px;
+    height: 128px;
+    padding-top: 92px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.blog .text2 .jonathan {
+    display: flex;
+    align-items: center;
+    padding-top: 121px;
+}
+.blog .text3 {
+    padding-left: 16px;
+}
+.blog .text3 h2{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+} 
+.blog .text3 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+} 
+.jonathan .icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 121px;
+}
+.blog .jonathan .icon1 {
+    background: #FFFFFF;
+    border-radius: 40px;
+    transform: rotate(90eg);
+    height: 48px;
+    width: 48px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.jonathan .icon2 {
+    height: 62px;
+    width: 62px;
+    background-color:#232536 ;
+    border-radius: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+.joinNow{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.joinNow h2{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
 }
 
 
